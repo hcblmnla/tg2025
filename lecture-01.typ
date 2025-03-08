@@ -22,7 +22,7 @@ TODO
 Группы преобразований:
 - $X$ – произвольное множество
 - $S(X) = {"все биекции на себя"}$
-- $id$ – identity, или в Java `UnaryOperator.identity()`
+- $id$ – identity, или в Java – `UnaryOperator.identity()`
 
 Гомоморфизм $phi: G_1 -> G_2$ (сохраняет групповую структуру):
 - $forall a, b in G_1: phi(a * b) = phi(a) compose phi(b)$
