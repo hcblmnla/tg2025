@@ -31,3 +31,7 @@
 Упражнения:
 + проверить (xy)^sigma = x^sigma y^sigma mod gamma_sigma(G)
 + (*) проверить изоморфность S^3 и SU(2)
+
+## Лекция 4
+
++ WIP
