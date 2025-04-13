@@ -71,13 +71,13 @@ $ {1, sigma_1, sigma_2, sigma_1 sigma_2, (sigma_1 sigma_2)^2, sigma_1 sigma_2 si
 
 Как получить инъекцию? Сделать обратное преобразование. Можно заметить интуицию – формула для $n$ выглядит как-то так:
 
-$ angle.l sigma_1, sigma_2, dots, sigma_(n-1) | sigma_i^n = 1, (sigma_i sigma_(i + 1))^n = 1, sigma_i sigma_(i + 1) sigma_i = sigma_(i + 1) sigma_i sigma_(i + 1) angle.r $
+$ angle.l sigma_1, sigma_2, dots, sigma_(n-1) | sigma_i^2 = 1, (sigma_i sigma_(i + 1))^3 = 1, sigma_i sigma_(i + 1) sigma_i = sigma_(i + 1) sigma_i sigma_(i + 1), sigma_i sigma_(j > i + 1) = sigma_(j > i + 1) sigma_i angle.r $
 
-Рассуждая индуктивно, можно попробовать доказать переход – упражнение.
+Последнее – _условие дальней абелевости_. В качестве упражнения нужно осознать конструкцию на _полноту_ и _ЛНЗ_, а также доказать ее индуктивным переходом.
 
 === Теория кос
 
-Если убрать из формулы выше убрать $(sigma_i sigma_(i + 1))^n = 1$, то получится группа кос (перестановки с историей) – #link("https://en.wikipedia.org/wiki/Braid_group")[en.wikipedia] (это ссылка).
+Если убрать из формулы выше убрать 1 и 2 условие, то получатся группы кос (перестановки с историей) – #link("https://en.wikipedia.org/wiki/Braid_group")[en.wikipedia] (это ссылка).
 
 == На следующем занятии
 
