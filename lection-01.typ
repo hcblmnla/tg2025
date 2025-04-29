@@ -1,5 +1,9 @@
 #import "@preview/commute:0.2.0": node, arr, commutative-diagram
 
+#set text(
+  font: "New Computer Modern"
+)
+
 #align(right)[
 _NOTE_: меня не было на первой лекции, поэтому материал \ разбросан и беден на доказательства
 ]
